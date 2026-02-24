@@ -15,7 +15,7 @@ getgenv().Configs = {
     TargetMutationBase = {"Emerald", "Gold", "UFO", "Money", "Candy", "Doom"}, -- รายชื่อสถานะตัวที่จะเอาลงบ้าน (Put Brainrot In Base Target Mutation List)
 
     --=== Auto Sell Configs ===--
-    Delete_Brianrot_Specific = {"Freezeti Cobretti", "Cupitron Consoletron", "Pastapot Infernotto", "Glacierello Infernetti", "Rubichetto Cubini", "Din Din Vaultero", "Biscotti Macarotti"}, -- รายชื่อตัวที่ต้องการขายทิ้ง (Auto Sell Specific Brainrot List)
+    Delete_Brianrot_Specific = {}, -- รายชื่อตัวที่ต้องการขายทิ้ง (Auto Sell Specific Brainrot List)
     Keep_Rarities = {"Infinity", "Divine"}, -- ระดับที่ไม่ต้องการขาย (Brainrot Rarities to Keep)
 
     --=== Auto Sell Custom Configs ===--
@@ -35,7 +35,7 @@ getgenv().Configs = {
 
     --=== More Farms ===--
     Farm_Tower = true, -- เปิดใช้งานฟาร์มทาวเวอร์ (Farm Tower)
-    Keep_Tower_Rarities = {"Infinity", "Divine"}, -- รายชื่อตัวที่ต้องการเก็บจากทาวเวอร์ (Tower Brainrot Rarities to Keep)
+    Keep_Tower_Rarities = {"Infinity"}, -- รายชื่อตัวที่ต้องการเก็บจากทาวเวอร์ (Tower Brainrot Rarities to Keep)
 
     --=== Lucky Block Configs ===--
     Farm_LuckyBlock = false, -- เปิดใช้งานฟาร์มลัคกี้บล็อก (Farm Lucky Block) < 5
