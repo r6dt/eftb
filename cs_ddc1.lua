@@ -48,8 +48,8 @@ getgenv().Configs = {
     MaxRebirth = 30, -- รีเบิร์ทสูงสุด (Max Rebirth)
 
     --=== Log Configs ===--
-    HorstLog = true, -- เปิดใช้งานการส่งข้อมูลไปยัง Horst (Send data to Horst)
-    LogRAM = false, -- เปิดใช้งานการส่งข้อมูลไปยัง RAM (Send data to Roblox Account Manager)
+    HorstLog = false, -- เปิดใช้งานการส่งข้อมูลไปยัง Horst (Send data to Horst)
+    LogRAM = true, -- เปิดใช้งานการส่งข้อมูลไปยัง RAM (Send data to Roblox Account Manager)
 
     Custom_Log = {
         Enabled = true, -- เปิดใช้งานระบบ Log แบบกำหนดเอง (Custom Log System)
