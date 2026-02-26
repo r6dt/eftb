@@ -1,5 +1,8 @@
 script_key="bHlXFFdnFOcfRknRADgQiyDhHkHgOWuu";
 getgenv().Configs = {
+    --=== Speed Multiplier ===--
+    SpeedMultiplier = 1, -- ตัวคูณความเร็ว 0.1 - 2 (Speed Multiplier) 
+	
     --=== Duplicate Configs ===--
     DuplicateMode = false, -- เปิดใช้งานโหมดดูป (Duplicate Mode)
     TargetBrainrot = {"Galactio Fantasma"}, -- รายชื่อตัวที่ต้องการดูป (Dupe List)
@@ -48,13 +51,19 @@ getgenv().Configs = {
     MaxRebirth = 30, -- รีเบิร์ทสูงสุด (Max Rebirth)
 
     --=== Log Configs ===--
-    HorstLog = false, -- เปิดใช้งานการส่งข้อมูลไปยัง Horst (Send data to Horst)
-    LogRAM = true, -- เปิดใช้งานการส่งข้อมูลไปยัง RAM (Send data to Roblox Account Manager)
+    HorstLog = true, -- เปิดใช้งานการส่งข้อมูลไปยัง Horst (Send data to Horst)
+    LogRAM = false, -- เปิดใช้งานการส่งข้อมูลไปยัง RAM (Send data to Roblox Account Manager)
 
     Custom_Log = {
-        Enabled = true, -- เปิดใช้งานระบบ Log แบบกำหนดเอง (Custom Log System)
-        Specific_Brainrots = {"Draculini Meowlini"}, -- รายชื่อตัวที่ต้องการส่งข้อมูล (Brainrots to Log)
+        Enabled = false, -- เปิดใช้งานระบบ Log แบบกำหนดเอง (Custom Log System)
+        Specific_Brainrots = {}, -- รายชื่อตัวที่ต้องการส่งข้อมูล (Brainrots to Log)
         Specific_Rarities = {"Infinity"}, -- ระดับที่ต้องการส่งข้อมูล (Rarities to Log)
+    },
+
+    --=== Private Webhook ===--
+    Webhook = {
+        Enabled = true, -- เปิดใช้งานการส่งข้อมูลไปยัง Webhook (Webhook)
+        URL = "https://discord.com/api/webhooks/1476390110059696138/xmn449CYzwBZTdJ_LP-v4RKy87-tIWXDNeVcNHEhzhMakW7-sLeEthsS_fTZC2YMf37V", -- URL ของ Webhook ที่ต้องการส่งข้อมูล (Webhook URL)
     },
 
     --=== Misc Configs ===--
