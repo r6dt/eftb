@@ -53,7 +53,7 @@ getgenv().Configs = {
 
     --=== Log Configs ===--
     HorstLog = false, -- เปิดใช้งานการส่งข้อมูลไปยัง Horst
-    LogRAM = false, -- เปิดใช้งานการส่งข้อมูลไปยัง RAM
+    LogRAM = true, -- เปิดใช้งานการส่งข้อมูลไปยัง RAM
     Custom_Log = {
         Enabled = false, -- เปิดใช้งานระบบ Log แบบกำหนดเอง
         Shield = false, -- ส่งข้อมูลโล่ (Log Shield)
