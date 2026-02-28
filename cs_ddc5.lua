@@ -1,7 +1,7 @@
 script_key="KDZFDzNWkOXoGDQpoDyGTIrnWMwBAsOe";
 getgenv().Configs = {
     --=== Speed Multiplier ===--
-    SpeedMultiplier = 1, -- ตัวคูณความเร็ว 0.1 - 3 (Speed Multiplier) 
+    SpeedMultiplier = 1.5, -- ตัวคูณความเร็ว 0.1 - 3 (Speed Multiplier) 
 
     --=== Duplicate Configs ===--
     DuplicateMode = false, -- เปิดใช้งานโหมดดูป (Duplicate Mode)
