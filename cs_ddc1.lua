@@ -18,7 +18,7 @@ getgenv().Configs = {
     TargetMutationBase = {"Emerald", "Gold", "Money", "Candy", "Doom"}, -- รายชื่อสถานะตัวที่จะเอาลงบ้าน (Put Brainrot In Base Target Mutation List)
 
     --=== Auto Sell Configs ===--
-    Delete_Brianrot_Specific = {}, -- รายชื่อตัวที่ต้องการขายทิ้ง (Auto Sell Specific Brainrot List)
+    Delete_Brianrot_Specific = {"Galactico fantasma", "Din Din Vaultero", "Explodini Cataclismi", "Strawberry Elephant", "Grappellino D'Oro"}, -- รายชื่อตัวที่ต้องการขายทิ้ง (Auto Sell Specific Brainrot List)
     Keep_Rarities = {"Infinity", "Divine"}, -- ระดับที่ไม่ต้องการขาย (Brainrot Rarities to Keep)
 
     --=== Auto Sell Custom Configs ===--
@@ -42,22 +42,22 @@ getgenv().Configs = {
     Keep_Tower_Rarities = {"Infinity", "Divine"}, -- รายชื่อตัวที่ต้องการเก็บจากทาวเวอร์ (Tower Brainrot Rarities to Keep)
 
     --=== Lucky Block Configs ===--
-    Farm_LuckyBlock = false, -- เปิดใช้งานฟาร์มลัคกี้บล็อก (Farm Lucky Block) < 5
-    Keep_LuckyBlock = {"Infinity", "Divine"}, -- รายชื่อลัคกี้บล็อกที่ต้องการเก็บ (Lucky Block Types to Keep)
-    Open_LuckyBlock = false, -- เปิดใช้งานการเปิดลัคกี้บล็อก (Open Lucky Block)
+    Farm_LuckyBlock = true, -- เปิดใช้งานฟาร์มลัคกี้บล็อก (Farm Lucky Block) < 5
+    Keep_LuckyBlock = {"Infinity"}, -- รายชื่อลัคกี้บล็อกที่ต้องการเก็บ (Lucky Block Types to Keep)
+    Open_LuckyBlock = true, -- เปิดใช้งานการเปิดลัคกี้บล็อก (Open Lucky Block)
     Keep_LuckyBlock_Rarities = {"Infinity", "Divine"}, -- รายชื่อลัคกี้บล็อกที่ไม่ต้องการเปิด (Lucky Block Rarities to Keep)
 
     --=== Auto Rebirth ==--
     MaxSpeed = 600, -- ความเร็วสูงสุด (Max Speed)
-    MaxRebirth = 30, -- รีเบิร์ทสูงสุด (Max Rebirth)
+    MaxRebirth = 25, -- รีเบิร์ทสูงสุด (Max Rebirth)
 
     --=== Log Configs ===--
     HorstLog = false, -- เปิดใช้งานการส่งข้อมูลไปยัง Horst
     LogRAM = true, -- เปิดใช้งานการส่งข้อมูลไปยัง RAM
     Custom_Log = {
-        Enabled = false, -- เปิดใช้งานระบบ Log แบบกำหนดเอง
-        Shield = false, -- ส่งข้อมูลโล่ (Log Shield)
-        Specific_Brainrots = {}, -- รายชื่อตัวที่ต้องการส่งข้อมูล (Brainrots to Log)
+        Enabled = true, -- เปิดใช้งานระบบ Log แบบกำหนดเอง
+        Shield = true, -- ส่งข้อมูลโล่ (Log Shield)
+        Specific_Brainrots = {"Draculini Meowlini"}, -- รายชื่อตัวที่ต้องการส่งข้อมูล (Brainrots to Log)
         Specific_Rarities = {"Infinity"}, -- ระดับที่ต้องการส่งข้อมูล (Rarities to Log)
     },
 
@@ -74,7 +74,7 @@ getgenv().Configs = {
         BlackScreen = false, -- เปิดใช้งานหน้าจอดำ
         Disable_3DRendering = false, -- ปิดการเรนเดอร์ 3D
         TransparencyMap = false, -- ปรับแมพโปร่งใส
-        ESP = false, -- เปิดใช้งาน ESP
+        ESP = true, -- เปิดใช้งาน ESP
         LockCam = true, -- ล็อคกล้อง
     },
 }
