@@ -1,3 +1,5 @@
+repeat task.wait() until game:IsLoaded()
+
 script_key="kMvfWMPPTPffdXGSmjMlbQROZlymajzG";
 getgenv().Configs = {
     --=== Speed Multiplier ===--
