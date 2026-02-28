@@ -39,7 +39,7 @@ getgenv().Configs = {
     --=== More Farms ===--
     Farm_Shield = true, -- เปิดใช้งานฟาร์มโล่ (Farm Shield)
     Farm_Tower = true, -- เปิดใช้งานฟาร์มทาวเวอร์ (Farm Tower)
-    Keep_Tower_Rarities = {"Infinity", "Divine"},, -- รายชื่อตัวที่ต้องการเก็บจากทาวเวอร์ (Tower Brainrot Rarities to Keep)
+    Keep_Tower_Rarities = {"Infinity", "Divine"}, -- รายชื่อตัวที่ต้องการเก็บจากทาวเวอร์ (Tower Brainrot Rarities to Keep)
 
     --=== Lucky Block Configs ===--
     Farm_LuckyBlock = false, -- เปิดใช้งานฟาร์มลัคกี้บล็อก (Farm Lucky Block) < 5
