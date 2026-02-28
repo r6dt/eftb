@@ -14,7 +14,7 @@ getgenv().Configs = {
 
     --=== Auto Spawn Machine Configs ===--
     TargetBrainrotHourlyUpgrade = {"Draculini Meowlini"}, -- รายชื่อตัวที่ต้องการให้ Auto Upgrade ทุกชั่วโมง (Hourly Upgrade List)
-    TargetMutationHourlyUpgrade = {"Candy", "Money", "Doom"}, -- รายชื่อสถานะตัวที่ต้องการให้ Auto Upgrade ทุกชั่วโมง (Hourly Upgrade Target Mutation List)
+    TargetMutationHourlyUpgrade = {"Fire"}, -- รายชื่อสถานะตัวที่ต้องการให้ Auto Upgrade ทุกชั่วโมง (Hourly Upgrade Target Mutation List)
 
     --=== Base Manager Configs ===--
     TargetBrainrotBase = {"Draculini Meowlini"}, -- รายชื่อตัวที่จะเอาลงบ้าน (Put Brainrot In Base List)
