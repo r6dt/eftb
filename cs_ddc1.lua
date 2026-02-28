@@ -4,9 +4,9 @@ getgenv().Configs = {
     SpeedMultiplier = 1.5, -- ตัวคูณความเร็ว 0.1 - 3 (Speed Multiplier) 
 
     --=== Duplicate Configs ===--
-    DuplicateMode = false, -- เปิดใช้งานโหมดดูป (Duplicate Mode)
+    DuplicateMode = true, -- เปิดใช้งานโหมดดูป (Duplicate Mode)
     TargetBrainrot = {"Draculini Meowlini"}, -- รายชื่อตัวที่ต้องการดูป (Dupe List)
-    TargetMutation = {"Emerald", "Gold", "UFO", "Money", "Candy", "Doom"}, -- รายชื่อสถานะตัวที่ต้องการดูป (Dupe Target Mutation List)
+    TargetMutation = {"Blood", "Emerald", "Gold", "UFO", "Money", "Candy", "Doom"}, -- รายชื่อสถานะตัวที่ต้องการดูป (Dupe Target Mutation List)
     DuplicateMaxLevel = 250, -- เอาตัวที่เลเวลน้อยกว่านี้ไปยัดตู้ (Max Level for Duplication)
 
     --=== Auto Spawn Machine Configs ===--
@@ -30,10 +30,7 @@ getgenv().Configs = {
 
     --=== Whitelist Machine ===--
     Whitelist_Machine = { -- รายชื่อเครื่องที่ต้องการใช้ (Machine Whitelist)
-        "Arcade", 
-        "Doom",
-        "Valentines", 
-        "ATM",
+        "FireAndIce", 
     },
 
     --=== More Farms ===--
