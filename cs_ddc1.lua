@@ -6,7 +6,7 @@ getgenv().Configs = {
     --=== Duplicate Configs ===--
     DuplicateMode = true, -- เปิดใช้งานโหมดดูป (Duplicate Mode)
     TargetBrainrot = {"Draculini Meowlini"}, -- รายชื่อตัวที่ต้องการดูป (Dupe List)
-    TargetMutation = {"Blood", "Emerald", "Gold", "UFO", "Money", "Candy", "Doom"}, -- รายชื่อสถานะตัวที่ต้องการดูป (Dupe Target Mutation List)
+    TargetMutation = {"Blood", "Electric", "Emerald", "Gold", "UFO", "Money", "Candy", "Doom"}, -- รายชื่อสถานะตัวที่ต้องการดูป (Dupe Target Mutation List)
     DuplicateMaxLevel = 250, -- เอาตัวที่เลเวลน้อยกว่านี้ไปยัดตู้ (Max Level for Duplication)
 
     --=== Auto Spawn Machine Configs ===--
