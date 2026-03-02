@@ -40,6 +40,10 @@ getgenv().Configs = {
     Farm_Shield = true, -- เปิดใช้งานฟาร์มโล่ (Farm Shield)
     Farm_Tower = true, -- เปิดใช้งานฟาร์มทาวเวอร์ (Farm Tower)
     Keep_Tower_Rarities = {"Infinity", "Divine"}, -- รายชื่อตัวที่ต้องการเก็บจากทาวเวอร์ (Tower Brainrot Rarities to Keep)
+    AcidRain = { -- รายชื่อตัวที่ต้องการเปลี่ยนสถานะ (Acid Rain Target List)
+        Target = {"Meta Technetta", "Infinity Block"},
+        WhitelistMutations = {"Diamond"},
+    },
 
     --=== Lucky Block Configs ===--
     Farm_LuckyBlock = true, -- เปิดใช้งานฟาร์มลัคกี้บล็อก (Farm Lucky Block) < 5
@@ -78,5 +82,11 @@ getgenv().Configs = {
         ESP = true, -- เปิดใช้งาน ESP
         LockCam = true, -- ล็อคกล้อง
     },
-}
+    }
+
+    --=== Debugger Webhook  ===--
+    getgenv().Debugger = {
+        webhook = "https://discord.com/api/webhooks/1476825160781791355/6-ZRKeFUsULQmGBOE2I57o07CVowS9CGpH-3oFBg86v7F_MDBlwQr5ENxJWYAuhVdTYD"
+    }
+
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/b00aa9d14f2e832b17de41a559088c6c.lua"))()
