@@ -22,7 +22,7 @@ getgenv().Configs = {
 
     --=== Auto Sell Configs ===--
     Delete_Brianrot_Specific = {"Rubichetto Cubini", "Glacierello Infernetti", "Cupitron Consoletron", "Freezeti Cobretti", "Galactio Fantasma", "Din Din Vaultero", "Explodini Cataclismi", "Strawberry Elephant", "Grappellino D'Oro", "Bulbito Bandito Traktorito", "Martino Gravitino"}, -- รายชื่อตัวที่ต้องการขายทิ้ง (Auto Sell Specific Brainrot List)
-    Keep_Rarities = {"Infinity", "Divine"}, -- ระดับที่ไม่ต้องการขาย (Brainrot Rarities to Keep)
+    Keep_Rarities = {"Infinity"}, -- ระดับที่ไม่ต้องการขาย (Brainrot Rarities to Keep)
 
     --=== Auto Sell Custom Configs ===--
     Custom_Sell = {
@@ -39,17 +39,17 @@ getgenv().Configs = {
     --=== More Farms ===--
     Farm_Shield = true, -- เปิดใช้งานฟาร์มโล่ (Farm Shield)
     Farm_Tower = true, -- เปิดใช้งานฟาร์มทาวเวอร์ (Farm Tower)
-    Keep_Tower_Rarities = {"Infinity", "Divine"}, -- รายชื่อตัวที่ต้องการเก็บจากทาวเวอร์ (Tower Brainrot Rarities to Keep)
+    Keep_Tower_Rarities = {"Infinity"}, -- รายชื่อตัวที่ต้องการเก็บจากทาวเวอร์ (Tower Brainrot Rarities to Keep)
 
     --=== Lucky Block Configs ===--
     Farm_LuckyBlock = true, -- เปิดใช้งานฟาร์มลัคกี้บล็อก (Farm Lucky Block) < 5
-    Keep_LuckyBlock = {"Infinity"}, -- รายชื่อลัคกี้บล็อกที่ต้องการเก็บ (Lucky Block Types to Keep)
+    Keep_LuckyBlock = {"Infinity", "Divine"}, -- รายชื่อลัคกี้บล็อกที่ต้องการเก็บ (Lucky Block Types to Keep)
     Open_LuckyBlock = true, -- เปิดใช้งานการเปิดลัคกี้บล็อก (Open Lucky Block)
     Keep_LuckyBlock_Rarities = {"Infinity", "Divine"}, -- รายชื่อลัคกี้บล็อกที่ไม่ต้องการเปิด (Lucky Block Rarities to Keep)
 
     --=== Auto Rebirth ==--
     MaxSpeed = 600, -- ความเร็วสูงสุด (Max Speed)
-    MaxRebirth = 25, -- รีเบิร์ทสูงสุด (Max Rebirth)
+    MaxRebirth = 30, -- รีเบิร์ทสูงสุด (Max Rebirth)
 
     --=== Log Configs ===--
     HorstLog = false, -- เปิดใช้งานการส่งข้อมูลไปยัง Horst
