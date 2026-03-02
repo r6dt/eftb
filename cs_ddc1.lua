@@ -57,7 +57,7 @@ getgenv().Configs = {
     Custom_Log = {
         Enabled = true, -- เปิดใช้งานระบบ Log แบบกำหนดเอง
         Shield = true, -- ส่งข้อมูลโล่ (Log Shield)
-        Specific_Brainrots = {"Draculini Meowlini"}, -- รายชื่อตัวที่ต้องการส่งข้อมูล (Brainrots to Log)
+        Specific_Brainrots = {"Draculini Meowlini", "Crostina Gelifio"}, -- รายชื่อตัวที่ต้องการส่งข้อมูล (Brainrots to Log)
         Specific_Rarities = {"Infinity"}, -- ระดับที่ต้องการส่งข้อมูล (Rarities to Log)
     },
 
