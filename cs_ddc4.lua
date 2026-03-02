@@ -8,20 +8,20 @@ getgenv().Configs = {
 
     --=== Duplicate Configs ===--
     DuplicateMode = false, -- เปิดใช้งานโหมดดูป (Duplicate Mode)
-    TargetBrainrot = {"Draculini Meowlini"}, -- รายชื่อตัวที่ต้องการดูป (Dupe List)
+    TargetBrainrot = {"Crostina Gelifio"}, -- รายชื่อตัวที่ต้องการดูป (Dupe List)
     TargetMutation = {"Blood", "Electric", "Emerald", "Gold", "Diamond", "UFO", "Money", "Candy", "Doom"}, -- รายชื่อสถานะตัวที่ต้องการดูป (Dupe Target Mutation List)
     DuplicateMaxLevel = 250, -- เอาตัวที่เลเวลน้อยกว่านี้ไปยัดตู้ (Max Level for Duplication)
 
     --=== Auto Spawn Machine Configs ===--
-    TargetBrainrotHourlyUpgrade = {"Draculini Meowlini"}, -- รายชื่อตัวที่ต้องการให้ Auto Upgrade ทุกชั่วโมง (Hourly Upgrade List)
+    TargetBrainrotHourlyUpgrade = {}, -- รายชื่อตัวที่ต้องการให้ Auto Upgrade ทุกชั่วโมง (Hourly Upgrade List)
     TargetMutationHourlyUpgrade = {"Candy", "Money", "Doom"}, -- รายชื่อสถานะตัวที่ต้องการให้ Auto Upgrade ทุกชั่วโมง (Hourly Upgrade Target Mutation List)
 
     --=== Base Manager Configs ===--
-    TargetBrainrotBase = {"Draculini Meowlini"}, -- รายชื่อตัวที่จะเอาลงบ้าน (Put Brainrot In Base List)
-    TargetMutationBase = {"Fire", "Ice"}, -- รายชื่อสถานะตัวที่จะเอาลงบ้าน (Put Brainrot In Base Target Mutation List)
+    TargetBrainrotBase = {"Crostina Gelifio", "Draculini Meowlini"}, -- รายชื่อตัวที่จะเอาลงบ้าน (Put Brainrot In Base List)
+    TargetMutationBase = {"Blood", "Electric", "Emerald", "Gold", "Diamond", "UFO", "Money", "Candy", "Doom", "Fire", "Ice"}, -- รายชื่อสถานะตัวที่จะเอาลงบ้าน (Put Brainrot In Base Target Mutation List)
 
     --=== Auto Sell Configs ===--
-    Delete_Brianrot_Specific = {"Rubichetto Cubini", "Glacierello Infernetti", "Cupitron Consoletron", "Freezeti Cobretti", "Galactio Fantasma", "Din Din Vaultero", "Explodini Cataclismi", "Strawberry Elephant", "Grappellino D'Oro", "Bulbito Bandito Traktorito", "Martino Gravitino"}, -- รายชื่อตัวที่ต้องการขายทิ้ง (Auto Sell Specific Brainrot List)
+    Delete_Brianrot_Specific = {"Grappellino D'Oro", "Burgerini Bearini", "Don Magmito", "Strawberry Elephant", "Biscotti Macarotti", "Galactio Fantasma", "Bulbito Bandito Traktorito", "Cornettino Fuaco", "Freezeti Cobretti", "Martino Gravitino", "Explodini Cataclismi", "Din Din Vaultero", "Glacierello Infernetti", "Pastapot Infernotto", "Cupitron Consoletron", "Rubichetto Cubini"}, -- รายชื่อตัวที่ต้องการขายทิ้ง (Auto Sell Specific Brainrot List)
     Keep_Rarities = {"Infinity"}, -- ระดับที่ไม่ต้องการขาย (Brainrot Rarities to Keep)
 
     --=== Auto Sell Custom Configs ===--
@@ -39,7 +39,7 @@ getgenv().Configs = {
     --=== More Farms ===--
     Farm_Shield = true, -- เปิดใช้งานฟาร์มโล่ (Farm Shield)
     Farm_Tower = true, -- เปิดใช้งานฟาร์มทาวเวอร์ (Farm Tower)
-    Keep_Tower_Rarities = {"Infinity"}, -- รายชื่อตัวที่ต้องการเก็บจากทาวเวอร์ (Tower Brainrot Rarities to Keep)
+    Keep_Tower_Rarities = {"Infinity", "Divine"}, -- รายชื่อตัวที่ต้องการเก็บจากทาวเวอร์ (Tower Brainrot Rarities to Keep)
 
     --=== Lucky Block Configs ===--
     Farm_LuckyBlock = true, -- เปิดใช้งานฟาร์มลัคกี้บล็อก (Farm Lucky Block) < 5
@@ -57,7 +57,8 @@ getgenv().Configs = {
     Custom_Log = {
         Enabled = true, -- เปิดใช้งานระบบ Log แบบกำหนดเอง
         Shield = true, -- ส่งข้อมูลโล่ (Log Shield)
-        Specific_Brainrots = {"Draculini Meowlini"}, -- รายชื่อตัวที่ต้องการส่งข้อมูล (Brainrots to Log)
+        LuckyBlock = true, -- ส่งข้อมูลอินฟินิตี้บล็อก (Log Infinity Block)
+        Specific_Brainrots = {"Draculini Meowlini", "Crostina Gelifio"}, -- รายชื่อตัวที่ต้องการส่งข้อมูล (Brainrots to Log)
         Specific_Rarities = {"Infinity"}, -- ระดับที่ต้องการส่งข้อมูล (Rarities to Log)
     },
 
@@ -69,7 +70,7 @@ getgenv().Configs = {
 
     --=== Miscellaneous Configs ===--
     Auto_Reconnect = false, -- เปิดใช้งานการเชื่อมต่อใหม่อัตโนมัติเมื่อถูกเตะ
-    Auto_VIP_Server = false, -- เปิดใช้งานการย้ายไปยัง VIP ฟรี
+    Auto_VIP_Server = true, -- เปิดใช้งานการย้ายไปยัง VIP ฟรี
     Miscellaneous = {
         BlackScreen = false, -- เปิดใช้งานหน้าจอดำ
         Disable_3DRendering = false, -- ปิดการเรนเดอร์ 3D
