@@ -1,7 +1,4 @@
 repeat task.wait() until game:IsLoaded()
-task.wait(10)
-
-script_key="KDZFDzNWkOXoGDQpoDyGTIrnWMwBAsOe";
 getgenv().Configs = {
     --=== Speed Multiplier ===--
     SpeedMultiplier = 1.5, -- ตัวคูณความเร็ว 0.1 - 3 (Speed Multiplier) 
@@ -43,9 +40,9 @@ getgenv().Configs = {
 
     --=== Lucky Block Configs ===--
     Farm_LuckyBlock = true, -- เปิดใช้งานฟาร์มลัคกี้บล็อก (Farm Lucky Block) < 5
-    Keep_LuckyBlock = {"Infinity", "Divine"}, -- รายชื่อลัคกี้บล็อกที่ต้องการเก็บ (Lucky Block Types to Keep)
+    Keep_LuckyBlock = {"Infinity", "Celestial"}, -- รายชื่อลัคกี้บล็อกที่ต้องการเก็บ (Lucky Block Types to Keep)
     Open_LuckyBlock = true, -- เปิดใช้งานการเปิดลัคกี้บล็อก (Open Lucky Block)
-    Keep_LuckyBlock_Rarities = {"Infinity", "Divine"}, -- รายชื่อลัคกี้บล็อกที่ไม่ต้องการเปิด (Lucky Block Rarities to Keep)
+    Keep_LuckyBlock_Rarities = {"Infinity", "Celestial"}, -- รายชื่อลัคกี้บล็อกที่ไม่ต้องการเปิด (Lucky Block Rarities to Keep)
 
     --=== Auto Rebirth ==--
     MaxSpeed = 600, -- ความเร็วสูงสุด (Max Speed)
