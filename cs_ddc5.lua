@@ -1,4 +1,8 @@
 repeat task.wait() until game:IsLoaded()
+repeat task.wait() until game:IsLoaded()
+task.wait(10)
+
+script_key="KDZFDzNWkOXoGDQpoDyGTIrnWMwBAsOe";
 getgenv().Configs = {
     --=== Speed Multiplier ===--
     SpeedMultiplier = 1.5, -- ตัวคูณความเร็ว 0.1 - 3 (Speed Multiplier) 
