@@ -44,6 +44,7 @@ getgenv().Configs = {
         Target = {"Meta Technetta", "Infinity Block"},
         WhitelistMutations = {"Diamond"},
     },
+    LuckyStorm_Require_Diamond_Block = false,
 
     --=== Lucky Block Configs ===--
     Farm_LuckyBlock = true, -- เปิดใช้งานฟาร์มลัคกี้บล็อก (Farm Lucky Block) < 5
