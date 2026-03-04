@@ -7,21 +7,21 @@ getgenv().Configs = {
     SpeedMultiplier = 1.5, -- ตัวคูณความเร็ว 0.1 - 3 (Speed Multiplier) 
 
     --=== Duplicate Configs ===--
-    DuplicateMode = false, -- เปิดใช้งานโหมดดูป (Duplicate Mode)
+    DuplicateMode = true, -- เปิดใช้งานโหมดดูป (Duplicate Mode)
     TargetBrainrot = {"Crostina Gelifio"}, -- รายชื่อตัวที่ต้องการดูป (Dupe List)
-    TargetMutation = {"Blood", "Electric", "Emerald", "Gold", "Diamond", "UFO", "Money", "Candy", "Doom"}, -- รายชื่อสถานะตัวที่ต้องการดูป (Dupe Target Mutation List)
+    TargetMutation = {"Blood", "Electric", "Emerald", "Gold", "Diamond", "UFO", "Candy", "Doom", "Fire", "Ice"}, -- รายชื่อสถานะตัวที่ต้องการดูป (Dupe Target Mutation List)
     DuplicateMaxLevel = 250, -- เอาตัวที่เลเวลน้อยกว่านี้ไปยัดตู้ (Max Level for Duplication)
 
     --=== Auto Spawn Machine Configs ===--
-    TargetBrainrotHourlyUpgrade = {}, -- รายชื่อตัวที่ต้องการให้ Auto Upgrade ทุกชั่วโมง (Hourly Upgrade List)
-    TargetMutationHourlyUpgrade = {"Candy", "Money", "Doom"}, -- รายชื่อสถานะตัวที่ต้องการให้ Auto Upgrade ทุกชั่วโมง (Hourly Upgrade Target Mutation List)
+    TargetBrainrotHourlyUpgrade = {"Crostina Gelifio"}, -- รายชื่อตัวที่ต้องการให้ Auto Upgrade ทุกชั่วโมง (Hourly Upgrade List)
+    TargetMutationHourlyUpgrade = {"Money"}, -- รายชื่อสถานะตัวที่ต้องการให้ Auto Upgrade ทุกชั่วโมง (Hourly Upgrade Target Mutation List)
 
     --=== Base Manager Configs ===--
-    TargetBrainrotBase = {"Crostina Gelifio", "Draculini Meowlini"}, -- รายชื่อตัวที่จะเอาลงบ้าน (Put Brainrot In Base List)
-    TargetMutationBase = {"Blood", "Electric", "Emerald", "Gold", "Diamond", "UFO", "Money", "Candy", "Doom", "Fire", "Ice"}, -- รายชื่อสถานะตัวที่จะเอาลงบ้าน (Put Brainrot In Base Target Mutation List)
+    TargetBrainrotBase = {"Crostina Gelifio"}, -- รายชื่อตัวที่จะเอาลงบ้าน (Put Brainrot In Base List)
+    TargetMutationBase = {"Money"}, -- รายชื่อสถานะตัวที่จะเอาลงบ้าน (Put Brainrot In Base Target Mutation List)
 
     --=== Auto Sell Configs ===--
-    Delete_Brianrot_Specific = {"Grappellino D'Oro", "Burgerini Bearini", "Don Magmito", "Strawberry Elephant", "Biscotti Macarotti", "Galactio Fantasma", "Bulbito Bandito Traktorito", "Cornettino Fuaco", "Freezeti Cobretti", "Martino Gravitino", "Explodini Cataclismi", "Din Din Vaultero", "Glacierello Infernetti", "Pastapot Infernotto", "Cupitron Consoletron", "Rubichetto Cubini"}, -- รายชื่อตัวที่ต้องการขายทิ้ง (Auto Sell Specific Brainrot List)
+    Delete_Brianrot_Specific = {"Draculini Meowlini", "Grappellino D'Oro", "Burgerini Bearini", "Don Magmito", "Strawberry Elephant", "Biscotti Macarotti", "Galactio Fantasma", "Bulbito Bandito Traktorito", "Cornettino Fuaco", "Freezeti Cobretti", "Martino Gravitino", "Explodini Cataclismi", "Din Din Vaultero", "Glacierello Infernetti", "Pastapot Infernotto", "Cupitron Consoletron", "Rubichetto Cubini"}, -- รายชื่อตัวที่ต้องการขายทิ้ง (Auto Sell Specific Brainrot List)
     Keep_Rarities = {"Infinity"}, -- ระดับที่ไม่ต้องการขาย (Brainrot Rarities to Keep)
 
     --=== Auto Sell Custom Configs ===--
@@ -33,7 +33,7 @@ getgenv().Configs = {
 
     --=== Whitelist Machine ===--
     Whitelist_Machine = { -- รายชื่อเครื่องที่ต้องการใช้ (Machine Whitelist)
-        "FireAndIce", 
+        "ATM", 
     },
 
     --=== More Farms ===--
@@ -62,7 +62,7 @@ getgenv().Configs = {
         Enabled = true, -- เปิดใช้งานระบบ Log แบบกำหนดเอง
         Shield = true, -- ส่งข้อมูลโล่ (Log Shield)
         LuckyBlock = true, -- ส่งข้อมูลอินฟินิตี้บล็อก (Log Infinity Block)
-        Specific_Brainrots = {"Draculini Meowlini", "Crostina Gelifio"}, -- รายชื่อตัวที่ต้องการส่งข้อมูล (Brainrots to Log)
+        Specific_Brainrots = {"Crostina Gelifio"}, -- รายชื่อตัวที่ต้องการส่งข้อมูล (Brainrots to Log)
         Specific_Rarities = {"Infinity"}, -- ระดับที่ต้องการส่งข้อมูล (Rarities to Log)
     },
 
@@ -74,7 +74,7 @@ getgenv().Configs = {
 
     --=== Miscellaneous Configs ===--
     Auto_Reconnect = false, -- เปิดใช้งานการเชื่อมต่อใหม่อัตโนมัติเมื่อถูกเตะ
-    Auto_VIP_Server = true, -- เปิดใช้งานการย้ายไปยัง VIP ฟรี
+    Auto_VIP_Server = false, -- เปิดใช้งานการย้ายไปยัง VIP ฟรี
     Miscellaneous = {
         BlackScreen = false, -- เปิดใช้งานหน้าจอดำ
         Disable_3DRendering = false, -- ปิดการเรนเดอร์ 3D
