@@ -68,7 +68,7 @@ getgenv().Configs = {
     Keep_LuckyBlock_Rarities = {"Infinity", "Celestial"}, -- รายชื่อลัคกี้บล็อกที่ไม่ต้องการเปิด (Lucky Block Rarities to Keep)
 
     --=== Auto Rebirth ==--
-    MaxSpeed = 600, -- ความเร็วสูงสุด (Max Speed)
+    MaxSpeed = 999, -- ความเร็วสูงสุด (Max Speed)
     MaxRebirth = 30, -- รีเบิร์ทสูงสุด (Max Rebirth)
 
     --=== Log Configs ===--
