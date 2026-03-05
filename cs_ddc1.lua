@@ -37,8 +37,19 @@ getgenv().Configs = {
     },
 
     --=== More Farms ===--
-    Farm_Shield = true, -- เปิดใช้งานฟาร์มโล่ (Farm Shield)
     Farm_Tower = true, -- เปิดใช้งานฟาร์มทาวเวอร์ (Farm Tower)
+    Farm_Shield = false, -- เปิดใช้งานฟาร์มโล่ (Farm Shield)
+    Farm_Token = false, -- เปิดใช้งานฟาร์มโทเคน (Farm Token)
+    Farm_FireAndIce = {
+        Enabled = true, -- เปิดใช้งานฟาร์มอีเว้นท์ไฟและน้ำแข็ง (Farm Fire and Ice)
+        Whitelist_Rarity = {  -- รายชื่อระดับที่ต้องการฟาร์ม (Fire and Ice Farm Target List)
+            "Celestial", 
+            "Secret",
+            "Cosmic",
+            "Mythical",
+            "Legendary",
+        }, 
+    },
     Keep_Tower_Rarities = {"Infinity", "Divine"}, -- รายชื่อตัวที่ต้องการเก็บจากทาวเวอร์ (Tower Brainrot Rarities to Keep)
     AcidRain = { -- รายชื่อตัวที่ต้องการเปลี่ยนสถานะ (Acid Rain Target List)
         Target = {"Meta Technetta"},
