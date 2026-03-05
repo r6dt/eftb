@@ -17,6 +17,10 @@ getgenv().Configs = {
     TargetMutationHourlyUpgrade = {"Money"}, -- รายชื่อสถานะตัวที่ต้องการให้ Auto Upgrade ทุกชั่วโมง (Hourly Upgrade Target Mutation List)
 
     --=== Base Manager Configs ===--
+    Auto_Upgrade_Brainrot = {    -- เปิดใช้งานการอัพเกรดตัวในบ้านอัตโนมัติ (Auto Upgrade Brainrot in Base)
+        Enabled = true, 
+        MaxLevel = 200,     -- เลเวลสูงสุดที่ต้องการอัพเกรด (Max Level for Auto Upgrade in Base)
+    },
     TargetBrainrotBase = {"Crostina Gelifio"}, -- รายชื่อตัวที่จะเอาลงบ้าน (Put Brainrot In Base List)
     TargetMutationBase = {"Blood", "Electric", "Emerald", "Gold", "Diamond", "UFO", "Candy", "Doom", "Fire", "Ice", "Money"}, -- รายชื่อสถานะตัวที่จะเอาลงบ้าน (Put Brainrot In Base Target Mutation List)
 
@@ -64,7 +68,7 @@ getgenv().Configs = {
     Keep_LuckyBlock_Rarities = {"Infinity", "Celestial"}, -- รายชื่อลัคกี้บล็อกที่ไม่ต้องการเปิด (Lucky Block Rarities to Keep)
 
     --=== Auto Rebirth ==--
-    MaxSpeed = 600, -- ความเร็วสูงสุด (Max Speed)
+    MaxSpeed = 999, -- ความเร็วสูงสุด (Max Speed)
     MaxRebirth = 30, -- รีเบิร์ทสูงสุด (Max Rebirth)
 
     --=== Log Configs ===--
