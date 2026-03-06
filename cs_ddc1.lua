@@ -7,7 +7,7 @@ getgenv().Configs = {
     SpeedMultiplier = 1.5, -- ตัวคูณความเร็ว 0.1 - 3 (Speed Multiplier) 
 
     --=== Duplicate Configs ===--
-    DuplicateMode = false, -- เปิดใช้งานโหมดดูป (Duplicate Mode)
+    DuplicateMode = true, -- เปิดใช้งานโหมดดูป (Duplicate Mode)
     TargetBrainrot = {"Crostina Gelifio"}, -- รายชื่อตัวที่ต้องการดูป (Dupe List)
     TargetMutation = {"Blood", "Electric", "Emerald", "Gold", "Diamond", "UFO", "Candy", "Doom", "Fire", "Ice", "Money"}, -- รายชื่อสถานะตัวที่ต้องการดูป (Dupe Target Mutation List)
     DuplicateMaxLevel = 250, -- เอาตัวที่เลเวลน้อยกว่านี้ไปยัดตู้ (Max Level for Duplication)
@@ -22,7 +22,7 @@ getgenv().Configs = {
         MaxLevel = 200,     -- เลเวลสูงสุดที่ต้องการอัพเกรด (Max Level for Auto Upgrade in Base)
     },
     TargetBrainrotBase = {"Crostina Gelifio"}, -- รายชื่อตัวที่จะเอาลงบ้าน (Put Brainrot In Base List)
-    TargetMutationBase = {"Blood", "Electric", "Emerald", "Gold", "Diamond", "UFO", "Candy", "Doom", "Fire", "Ice", "Money"}, -- รายชื่อสถานะตัวที่จะเอาลงบ้าน (Put Brainrot In Base Target Mutation List)
+    TargetMutationBase = {"Diamond", "Candy", "Doom", "Fire", "Ice", "Money"}, -- รายชื่อสถานะตัวที่จะเอาลงบ้าน (Put Brainrot In Base Target Mutation List)
 
     --=== Auto Sell Configs ===--
     Delete_Brianrot_Specific = {"Draculini Meowlini", "Grappellino D'Oro", "Burgerini Bearini", "Don Magmito", "Strawberry Elephant", "Biscotti Macarotti", "Galactio Fantasma", "Bulbito Bandito Traktorito", "Cornettino Fuaco", "Freezeti Cobretti", "Martino Gravitino", "Explodini Cataclismi", "Din Din Vaultero", "Glacierello Infernetti", "Pastapot Infernotto", "Cupitron Consoletron", "Rubichetto Cubini"}, -- รายชื่อตัวที่ต้องการขายทิ้ง (Auto Sell Specific Brainrot List)
@@ -37,7 +37,9 @@ getgenv().Configs = {
 
     --=== Whitelist Machine ===--
     Whitelist_Machine = { -- รายชื่อเครื่องที่ต้องการใช้ (Machine Whitelist)
-        "ATM", 
+        "Doom",
+        "Valentines", 
+        "ATM",
     },
 
     --=== More Farms ===--
