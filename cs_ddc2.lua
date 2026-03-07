@@ -46,6 +46,11 @@ getgenv().Configs = {
     Farm_Tower = true, -- เปิดใช้งานฟาร์มทาวเวอร์ (Farm Tower)
     Farm_Shield = false, -- เปิดใช้งานฟาร์มโล่ (Farm Shield)
     Farm_Token = false, -- เปิดใช้งานฟาร์มโทเคน (Farm Token)
+    Farm_Phantom_Event = {  -- เปิดใช้งานฟาร์มอีเว้นท์แฟนท่อม (Farm Phantom Event)
+        OrbReach = true, -- แข่งขันเก็บออร์บ (Farm Phantom Event Orb)
+        FarmCrate = false, -- เก็บกล่อง (Farm Phantom Event Crate)
+        FarmShard = false, -- เก็บชาร์ด (Farm Phantom Event Shard)
+    },
     Farm_FireAndIce = {
         Enabled = true, -- เปิดใช้งานฟาร์มอีเว้นท์ไฟและน้ำแข็ง (Farm Fire and Ice)
         Whitelist_Rarity = {  -- รายชื่อระดับที่ต้องการฟาร์ม (Fire and Ice Farm Target List)
