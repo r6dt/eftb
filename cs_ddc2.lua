@@ -47,7 +47,7 @@ getgenv().Configs = {
     Farm_Shield = false, -- เปิดใช้งานฟาร์มโล่ (Farm Shield)
     Farm_Token = false, -- เปิดใช้งานฟาร์มโทเคน (Farm Token)
     Farm_Phantom_Event = {  -- เปิดใช้งานฟาร์มอีเว้นท์แฟนท่อม (Farm Phantom Event)
-        OrbReach = true, -- แข่งขันเก็บออร์บ (Farm Phantom Event Orb)
+        OrbReach = false, -- แข่งขันเก็บออร์บ (Farm Phantom Event Orb)
         FarmCrate = false, -- เก็บกล่อง (Farm Phantom Event Crate)
         FarmShard = false, -- เก็บชาร์ด (Farm Phantom Event Shard)
     },
