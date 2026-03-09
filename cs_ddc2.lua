@@ -110,7 +110,7 @@ getgenv().Configs = {
     },
         Timeout_Detecter = {
         Enabled = true, -- เปิดใช้งานตัวตรวจจับยืนนิ่ง (Player Stuck Detecter)
-        Interval = 1200, -- ระยะเวลาตรวจสอบ (Check Interval)
+        Interval = 600, -- ระยะเวลาตรวจสอบ (Check Interval)
     }
     }
     --=== Debugger Webhook  ===--
