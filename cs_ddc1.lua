@@ -88,7 +88,7 @@ getgenv().Configs = {
         Enabled = true, -- เปิดใช้งานระบบ Log แบบกำหนดเอง
         Shield = true, -- ส่งข้อมูลโล่ (Log Shield)
         LuckyBlock = true, -- ส่งข้อมูลอินฟินิตี้บล็อก (Log Infinity Block)
-        Specific_Brainrots = {"Crostina Gelifio"}, -- รายชื่อตัวที่ต้องการส่งข้อมูล (Brainrots to Log)
+        Specific_Brainrots = {"Dutchmello Velerino"}, -- รายชื่อตัวที่ต้องการส่งข้อมูล (Brainrots to Log)
         Specific_Rarities = {"Infinity"}, -- ระดับที่ต้องการส่งข้อมูล (Rarities to Log)
     },
 
