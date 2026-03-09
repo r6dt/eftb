@@ -8,7 +8,7 @@ getgenv().Configs = {
     --=== Duplicate Configs ===--
     DuplicateMode = true, -- เปิดใช้งานโหมดดูป (Duplicate Mode)
     TargetBrainrot = {"Dutchmello Velerino"}, -- รายชื่อตัวที่ต้องการดูป (Dupe List)
-    TargetMutation = {"Emerald","Money", "Candy", "Doom", "Phantom"} -- รายชื่อสถานะตัวที่ต้องการดูป (Dupe Target Mutation List)
+    TargetMutation = {"Emerald","Money", "Candy", "Doom", "Phantom"}, -- รายชื่อสถานะตัวที่ต้องการดูป (Dupe Target Mutation List)
     DuplicateMaxLevel = 250, -- เอาตัวที่เลเวลน้อยกว่านี้ไปยัดตู้ (Max Level for Duplication)
 
         --=== Auto Mutation ===--
@@ -112,7 +112,7 @@ getgenv().Configs = {
         Enabled = true, -- เปิดใช้งานตัวตรวจจับยืนนิ่ง (Player Stuck Detecter)
         Interval = 1200, -- ระยะเวลาตรวจสอบ (Check Interval)
     }
-
+    }
     --=== Debugger Webhook  ===--
     getgenv().Debugger = {
         webhook = "https://discord.com/api/webhooks/1476825160781791355/6-ZRKeFUsULQmGBOE2I57o07CVowS9CGpH-3oFBg86v7F_MDBlwQr5ENxJWYAuhVdTYD"
