@@ -49,7 +49,7 @@ getgenv().Configs = {
     Farm_Phantom_Event = {  -- เปิดใช้งานฟาร์มอีเว้นท์แฟนท่อม (Farm Phantom Event)
         OrbReach = false, -- แข่งขันเก็บออร์บ (Farm Phantom Event Orb)
         FarmCrate = false, -- เก็บกล่อง (Farm Phantom Event Crate)
-        FarmShard = false, -- เก็บชาร์ด (Farm Phantom Event Shard)
+        FarmShard = true, -- เก็บชาร์ด (Farm Phantom Event Shard)
     },
     Farm_FireAndIce = {
         Enabled = true, -- เปิดใช้งานฟาร์มอีเว้นท์ไฟและน้ำแข็ง (Farm Fire and Ice)
@@ -97,7 +97,7 @@ getgenv().Configs = {
 
     --=== Miscellaneous Configs ===--
     Auto_Reconnect = false, -- เปิดใช้งานการเชื่อมต่อใหม่อัตโนมัติเมื่อถูกเตะ
-    Auto_VIP_Server = true, -- เปิดใช้งานการย้ายไปยัง VIP ฟรี
+    Auto_VIP_Server = false, -- เปิดใช้งานการย้ายไปยัง VIP ฟรี
     Miscellaneous = {
         BlackScreen = false, -- เปิดใช้งานหน้าจอดำ
         Disable_3DRendering = false, -- ปิดการเรนเดอร์ 3D
