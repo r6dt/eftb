@@ -31,7 +31,7 @@ getgenv().Configs = {
     TargetMutationBase = {"Phantom"}, -- รายชื่อสถานะตัวที่จะเอาลงบ้าน (Put Brainrot In Base Target Mutation List)
 
     --=== Auto Sell Configs ===--
-    Delete_Brianrot_Specific = {"Draculini Meowlini", "Grappellino D'Oro", "Burgerini Bearini", "Don Magmito", "Strawberry Elephant", "Biscotti Macarotti", "Galactio Fantasma", "Bulbito Bandito Traktorito", "Cornettino Fuaco", "Freezeti Cobretti", "Martino Gravitino", "Explodini Cataclismi", "Din Din Vaultero", "Glacierello Infernetti", "Pastapot Infernotto", "Cupitron Consoletron", "Rubichetto Cubini"}, -- รายชื่อตัวที่ต้องการขายทิ้ง (Auto Sell Specific Brainrot List)
+    Delete_Brianrot_Specific = {"Crostina Gelifio", "Draculini Meowlini", "Grappellino D'Oro", "Burgerini Bearini", "Don Magmito", "Strawberry Elephant", "Biscotti Macarotti", "Galactio Fantasma", "Bulbito Bandito Traktorito", "Cornettino Fuaco", "Freezeti Cobretti", "Martino Gravitino", "Explodini Cataclismi", "Din Din Vaultero", "Glacierello Infernetti", "Pastapot Infernotto", "Cupitron Consoletron", "Rubichetto Cubini"}, -- รายชื่อตัวที่ต้องการขายทิ้ง (Auto Sell Specific Brainrot List)
     Keep_Rarities = {"Infinity"}, -- ระดับที่ไม่ต้องการขาย (Brainrot Rarities to Keep)
 
     --=== Auto Sell Custom Configs ===--
