@@ -7,11 +7,17 @@ getgenv().Configs = {
     SpeedMultiplier = 1.5, -- ตัวคูณความเร็ว 0.1 - 3 (Speed Multiplier) 
 
     --=== Duplicate Configs ===--
-    DuplicateMode = false, -- เปิดใช้งานโหมดดูป (Duplicate Mode)
-    TargetBrainrot = {"Crostina Gelifio"}, -- รายชื่อตัวที่ต้องการดูป (Dupe List)
-    TargetMutation = {"Blood", "Electric", "Emerald", "Gold", "Diamond", "UFO", "Candy", "Doom", "Fire", "Ice", "Money"}, -- รายชื่อสถานะตัวที่ต้องการดูป (Dupe Target Mutation List)
+    DuplicateMode = true, -- เปิดใช้งานโหมดดูป (Duplicate Mode)
+    TargetBrainrot = {"Dutchmello Velerino"}, -- รายชื่อตัวที่ต้องการดูป (Dupe List)
+    TargetMutation = {"Emerald", "Gold", "Diamond", "UFO", "Candy", "Doom", "Fire", "Ice", "Money"}, -- รายชื่อสถานะตัวที่ต้องการดูป (Dupe Target Mutation List)
     DuplicateMaxLevel = 250, -- เอาตัวที่เลเวลน้อยกว่านี้ไปยัดตู้ (Max Level for Duplication)
 
+        --=== Auto Mutation ===--
+    Phantom_Brainrot = {    -- รายชื่อตัวที่ต้องการใส่สถานะ Phantom (Phantom Brainrot List)
+        Target = {"Dutchmello Velerino"}, -- รายชื่อตัวที่ต้องการใส่สถานะ Phantom (Phantom Brainrot Target List)
+        TargetMutation = {"Emerald", "Gold", "UFO"}, -- รายชื่อสถานะตัวที่ต้องเปลี่ยนใส่สถานะ Phantom (Phantom Brainrot Target Mutation List)
+    },
+    
     --=== Auto Spawn Machine Configs ===--
     TargetBrainrotHourlyUpgrade = {}, -- รายชื่อตัวที่ต้องการให้ Auto Upgrade ทุกชั่วโมง (Hourly Upgrade List)
     TargetMutationHourlyUpgrade = {"Money"}, -- รายชื่อสถานะตัวที่ต้องการให้ Auto Upgrade ทุกชั่วโมง (Hourly Upgrade Target Mutation List)
@@ -21,11 +27,11 @@ getgenv().Configs = {
         Enabled = true, 
         MaxLevel = 200,     -- เลเวลสูงสุดที่ต้องการอัพเกรด (Max Level for Auto Upgrade in Base)
     },
-    TargetBrainrotBase = {"Crostina Gelifio"}, -- รายชื่อตัวที่จะเอาลงบ้าน (Put Brainrot In Base List)
-    TargetMutationBase = {"Diamond", "Candy", "Doom", "Fire", "Ice", "Money"}, -- รายชื่อสถานะตัวที่จะเอาลงบ้าน (Put Brainrot In Base Target Mutation List)
+    TargetBrainrotBase = {"Dutchmello Velerino"}, -- รายชื่อตัวที่จะเอาลงบ้าน (Put Brainrot In Base List)
+    TargetMutationBase = {"Phantom"}, -- รายชื่อสถานะตัวที่จะเอาลงบ้าน (Put Brainrot In Base Target Mutation List)
 
     --=== Auto Sell Configs ===--
-    Delete_Brianrot_Specific = {"Draculini Meowlini", "Grappellino D'Oro", "Burgerini Bearini", "Don Magmito", "Strawberry Elephant", "Biscotti Macarotti", "Galactio Fantasma", "Bulbito Bandito Traktorito", "Cornettino Fuaco", "Freezeti Cobretti", "Martino Gravitino", "Explodini Cataclismi", "Din Din Vaultero", "Glacierello Infernetti", "Pastapot Infernotto", "Cupitron Consoletron", "Rubichetto Cubini"}, -- รายชื่อตัวที่ต้องการขายทิ้ง (Auto Sell Specific Brainrot List)
+    Delete_Brianrot_Specific = {"Crostina Gelifio", "Draculini Meowlini", "Grappellino D'Oro", "Burgerini Bearini", "Don Magmito", "Strawberry Elephant", "Biscotti Macarotti", "Galactio Fantasma", "Bulbito Bandito Traktorito", "Cornettino Fuaco", "Freezeti Cobretti", "Martino Gravitino", "Explodini Cataclismi", "Din Din Vaultero", "Glacierello Infernetti", "Pastapot Infernotto", "Cupitron Consoletron", "Rubichetto Cubini"}, -- รายชื่อตัวที่ต้องการขายทิ้ง (Auto Sell Specific Brainrot List)
     Keep_Rarities = {"Infinity"}, -- ระดับที่ไม่ต้องการขาย (Brainrot Rarities to Keep)
 
     --=== Auto Sell Custom Configs ===--
@@ -37,9 +43,7 @@ getgenv().Configs = {
 
     --=== Whitelist Machine ===--
     Whitelist_Machine = { -- รายชื่อเครื่องที่ต้องการใช้ (Machine Whitelist)
-        "Doom",
-        "Valentines", 
-        "ATM",
+        "PhantomSummoner",
     },
 
     --=== More Farms ===--
@@ -97,7 +101,7 @@ getgenv().Configs = {
 
     --=== Miscellaneous Configs ===--
     Auto_Reconnect = false, -- เปิดใช้งานการเชื่อมต่อใหม่อัตโนมัติเมื่อถูกเตะ
-    Auto_VIP_Server = false, -- เปิดใช้งานการย้ายไปยัง VIP ฟรี
+    Auto_VIP_Server = true, -- เปิดใช้งานการย้ายไปยัง VIP ฟรี
     Miscellaneous = {
         BlackScreen = false, -- เปิดใช้งานหน้าจอดำ
         Disable_3DRendering = false, -- ปิดการเรนเดอร์ 3D
