@@ -1,5 +1,5 @@
 repeat task.wait() until game:IsLoaded()
-task.wait(10)
+task.wait(30)
 
 script_key="pQhfWNtsKSNfuzQNakIVOxwWrzOgHpMr";
 getgenv().AutoTrade = {
