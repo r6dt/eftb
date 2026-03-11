@@ -6,7 +6,7 @@ getgenv().Configs = {
     SpeedMultiplier = 1.5, -- ตัวคูณความเร็ว 0.1 - 3 (Speed Multiplier) 
 
     --=== Duplicate Configs ===--
-    DuplicateMode = true, -- เปิดใช้งานโหมดดูป (Duplicate Mode)
+    DuplicateMode = false, -- เปิดใช้งานโหมดดูป (Duplicate Mode)
     TargetBrainrot = {"Dutchmello Velerino"}, -- รายชื่อตัวที่ต้องการดูป (Dupe List)
     TargetMutation = {"Emerald","Money", "Candy", "Doom", "Phantom"}, -- รายชื่อสถานะตัวที่ต้องการดูป (Dupe Target Mutation List)
     DuplicateMaxLevel = 250, -- เอาตัวที่เลเวลน้อยกว่านี้ไปยัดตู้ (Max Level for Duplication)
@@ -48,7 +48,7 @@ getgenv().Configs = {
     --=== More Farms ===--
     Farm_Tower = true, -- เปิดใช้งานฟาร์มทาวเวอร์ (Farm Tower)
     Farm_Shield = false, -- เปิดใช้งานฟาร์มโล่ (Farm Shield)
-    Farm_Token = false, -- เปิดใช้งานฟาร์มโทเคน (Farm Token)
+    Farm_Token = true, -- เปิดใช้งานฟาร์มโทเคน (Farm Token)
     Farm_Phantom_Event = {  -- เปิดใช้งานฟาร์มอีเว้นท์แฟนท่อม (Farm Phantom Event)
         OrbReach = false, -- แข่งขันเก็บออร์บ (Farm Phantom Event Orb)
         FarmCrate = false, -- เก็บกล่อง (Farm Phantom Event Crate)
