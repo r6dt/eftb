@@ -100,7 +100,7 @@ getgenv().Configs = {
 
     --=== Miscellaneous Configs ===--
     Auto_Reconnect = false, -- เปิดใช้งานการเชื่อมต่อใหม่อัตโนมัติเมื่อถูกเตะ
-    Auto_VIP_Server = false, -- เปิดใช้งานการย้ายไปยัง VIP ฟรี
+    Auto_VIP_Server = true, -- เปิดใช้งานการย้ายไปยัง VIP ฟรี
     Miscellaneous = {
         BlackScreen = false, -- เปิดใช้งานหน้าจอดำ
         Disable_3DRendering = false, -- ปิดการเรนเดอร์ 3D
