@@ -45,7 +45,7 @@ getgenv().Configs = {
 
     --=== More Farms ===--
     Farm_Tower = true, -- เปิดใช้งานฟาร์มทาวเวอร์ (Farm Tower)
-    Farm_Shield = false, -- เปิดใช้งานฟาร์มโล่ (Farm Shield)
+    Farm_Shield = true, -- เปิดใช้งานฟาร์มโล่ (Farm Shield)
     Farm_Token = true, -- เปิดใช้งานฟาร์มโทเคน (Farm Token)
     Farm_Phantom_Event = {  -- เปิดใช้งานฟาร์มอีเว้นท์แฟนท่อม (Farm Phantom Event)
         OrbReach = false, -- แข่งขันเก็บออร์บ (Farm Phantom Event Orb)
@@ -98,7 +98,7 @@ getgenv().Configs = {
 
     --=== Miscellaneous Configs ===--
     Auto_Reconnect = false, -- เปิดใช้งานการเชื่อมต่อใหม่อัตโนมัติเมื่อถูกเตะ
-    Auto_VIP_Server = true, -- เปิดใช้งานการย้ายไปยัง VIP ฟรี
+    Auto_VIP_Server = false, -- เปิดใช้งานการย้ายไปยัง VIP ฟรี
     Miscellaneous = {
         BlackScreen = false, -- เปิดใช้งานหน้าจอดำ
         Disable_3DRendering = false, -- ปิดการเรนเดอร์ 3D
