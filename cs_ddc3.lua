@@ -64,7 +64,7 @@ getgenv().Configs = {
     },
     Keep_Tower_Rarities = {"Infinity", "Divine"}, -- รายชื่อตัวที่ต้องการเก็บจากทาวเวอร์ (Tower Brainrot Rarities to Keep)
     AcidRain = { -- รายชื่อตัวที่ต้องการเปลี่ยนสถานะ (Acid Rain Target List)
-        Target = {"Meta Technetta"},
+        Target = {"Meta Technetta", "Doomini Tiktookini", "Magmew", "Anububu"},
         WhitelistMutations = {"Diamond"},
     },
     LuckyStorm_Require_Diamond_Block = false,
