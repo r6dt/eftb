@@ -10,6 +10,8 @@ getgenv().AutoTrade = {
         Trade_Token = true,
         Trade_Shiled = true,
         Trade_Base_Skin = true,
+        Trade_Bat = false,
+        Trade_Trident = false,
         Specific_Mutation = {}, -- Left Empty will trade all mutations, otherwise specify the mutations you want to trade.
     }, 
 }
