@@ -67,14 +67,24 @@ getgenv().Configs = {
         Target = {"Meta Technetta", "Doomini Tiktookini", "Magmew", "Anububu"},
         WhitelistMutations = {"Diamond"},
     },
-    LuckyStorm_Require_Diamond_Block = false,
+    LuckyStorm_Use_Which_Block = {"Celestial"}, -- รายชื่อตัวที่ต้องการให้พายุปรับเป็น Infinity Block (Lucky Storm Use Diamond Block Target List)
+    LuckyStorm_Require_Diamond_Block = false, -- ต้องเป็น Diamond Infinity Block เท่านั้น
+    Atomic_Tornado = {
+        Target = {"Meta Technetta", "Anububu"}, -- รายชื่อตัวที่ต้องการให้พายุปรับขนาด (Atomic Tornado Target List)
+        WhitelistMutations = {"Diamond"}, -- รายชื่อตัวที่ติดสถานะต้องการให้พายุปรับขนาด (Atomic Tornado Whitelist Mutation)
+        WhitelistSize = {"Colossal"}, -- รายชื่อขนาดที่ไม่ต้องการให้พายุปรับ (Atomic Tornado Whitelist Size)
+    },
 
     --=== Lucky Block Configs ===--
     Farm_LuckyBlock = true, -- เปิดใช้งานฟาร์มลัคกี้บล็อก (Farm Lucky Block) < 5
-    Keep_LuckyBlock = {"Infinity", "Celestial"}, -- รายชื่อลัคกี้บล็อกที่ต้องการเก็บ (Lucky Block Types to Keep)
+    Get_LuckyBlock = {"Infinity", "Celestial"}, -- รายชื่อลัคกี้บล็อกที่ต้องการเก็บ (Lucky Block Types to Keep)
     Open_LuckyBlock = true, -- เปิดใช้งานการเปิดลัคกี้บล็อก (Open Lucky Block)
     Keep_LuckyBlock_Rarities = {"Infinity", "Celestial"}, -- รายชื่อลัคกี้บล็อกที่ไม่ต้องการเปิด (Lucky Block Rarities to Keep)
-
+    Open_Excess_LuckyBlock = {  -- เปิดลัคกี้บล็อกที่เกินจากที่ต้องการ (Open Excess Lucky Block)
+        LuckyBlock_List = {"Celestial"}, -- รายชื่อลัคกี้บล็อกที่ต้องการเปิด (Lucky Block Types to Open if Excess)
+        Max = 5, -- จำนวนลัคกี้บล็อกที่ต้องการเก็บไว้ในตัว (Max Lucky Blocks to Keep)
+    },
+    
     --=== Auto Rebirth ==--
     MaxSpeed = 999, -- ความเร็วสูงสุด (Max Speed)
     MaxRebirth = 30, -- รีเบิร์ทสูงสุด (Max Rebirth)
@@ -98,7 +108,7 @@ getgenv().Configs = {
 
     --=== Miscellaneous Configs ===--
     Auto_Reconnect = false, -- เปิดใช้งานการเชื่อมต่อใหม่อัตโนมัติเมื่อถูกเตะ
-    Auto_VIP_Server = false, -- เปิดใช้งานการย้ายไปยัง VIP ฟรี
+    Auto_VIP_Server = true, -- เปิดใช้งานการย้ายไปยัง VIP ฟรี
     Miscellaneous = {
         BlackScreen = false, -- เปิดใช้งานหน้าจอดำ
         Disable_3DRendering = false, -- ปิดการเรนเดอร์ 3D
