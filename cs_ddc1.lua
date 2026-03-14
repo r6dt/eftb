@@ -12,7 +12,7 @@ getgenv().Configs = {
         --=== Auto Mutation ===--
     Phantom_Brainrot = {    -- รายชื่อตัวที่ต้องการใส่สถานะ Phantom (Phantom Brainrot List)
         Target = {"Dutchmello Velerino"}, -- รายชื่อตัวที่ต้องการใส่สถานะ Phantom (Phantom Brainrot Target List)
-        TargetMutation = {"Emerald", "Gold", "UFO", "Blood","Electric"}, -- รายชื่อสถานะตัวที่ต้องเปลี่ยนใส่สถานะ Phantom (Phantom Brainrot Target Mutation List)
+        TargetMutation = {"Emerald", "Gold", "UFO", "Blood", "Electric", "Money", "Candy", "Doom", "Fire", "Ice"}, -- รายชื่อสถานะตัวที่ต้องเปลี่ยนใส่สถานะ Phantom (Phantom Brainrot Target Mutation List)
     },
     
     --=== Auto Spawn Machine Configs ===--
@@ -25,7 +25,7 @@ getgenv().Configs = {
         MaxLevel = 200,     -- เลเวลสูงสุดที่ต้องการอัพเกรด (Max Level for Auto Upgrade in Base)
     },
     TargetBrainrotBase = {"Dutchmello Velerino"}, -- รายชื่อตัวที่จะเอาลงบ้าน (Put Brainrot In Base List)
-    TargetMutationBase = {"Money", "Candy", "Doom","Diamond","Phantom","Admin","Fire","Ice"}, -- รายชื่อสถานะตัวที่จะเอาลงบ้าน (Put Brainrot In Base Target Mutation List)
+    TargetMutationBase = {"Emerald", "Gold", "UFO", "Blood", "Electric", "Money", "Candy", "Doom", "Diamond", "Phantom", "Admin", "Fire", "Ice"}, -- รายชื่อสถานะตัวที่จะเอาลงบ้าน (Put Brainrot In Base Target Mutation List)
 
     --=== Auto Sell Configs ===--
     Delete_Brianrot_Specific = {"Crostina Gelifio", "Draculini Meowlini", "Grappellino D'Oro", "Burgerini Bearini", "Don Magmito", "Strawberry Elephant", "Biscotti Macarotti", "Galactio Fantasma", "Bulbito Bandito Traktorito", "Cornettino Fuaco", "Freezeti Cobretti", "Martino Gravitino", "Explodini Cataclismi", "Din Din Vaultero", "Glacierello Infernetti", "Pastapot Infernotto", "Cupitron Consoletron", "Rubichetto Cubini"}, -- รายชื่อตัวที่ต้องการขายทิ้ง (Auto Sell Specific Brainrot List)
