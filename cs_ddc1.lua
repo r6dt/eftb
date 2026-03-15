@@ -52,7 +52,7 @@ getgenv().Configs = {
     "Pastapot Infernotto",
     "Rubichetto Cubini",
     "Strawberry Elephant",
-    "Trippi Verdillo"
+    "Trippi Verdillo",
     },
     Keep_Rarities = {"Infinity", "Divine"}, -- ระดับที่ไม่ต้องการขาย (Brainrot Rarities to Keep)
 
