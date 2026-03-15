@@ -5,30 +5,55 @@ getgenv().Configs = {
 
     --=== Duplicate Configs ===--
     DuplicateMode = false, -- เปิดใช้งานโหมดดูป (Duplicate Mode)
-    TargetBrainrot = {"Dutchmello Velerino"}, -- รายชื่อตัวที่ต้องการดูป (Dupe List)
-    TargetMutation = {"Emerald","Money", "Candy", "Doom", "Phantom"}, -- รายชื่อสถานะตัวที่ต้องการดูป (Dupe Target Mutation List)
+    TargetBrainrot = {}, -- รายชื่อตัวที่ต้องการดูป (Dupe List)
+    TargetMutation = {}, -- รายชื่อสถานะตัวที่ต้องการดูป (Dupe Target Mutation List)
     DuplicateMaxLevel = 250, -- เอาตัวที่เลเวลน้อยกว่านี้ไปยัดตู้ (Max Level for Duplication)
 
         --=== Auto Mutation ===--
     Phantom_Brainrot = {    -- รายชื่อตัวที่ต้องการใส่สถานะ Phantom (Phantom Brainrot List)
-        Target = {"Meta Technetta", "Doomini Tiktookini", "Nebuluck", "Magmew", "Anububu"}, -- รายชื่อตัวที่ต้องการใส่สถานะ Phantom (Phantom Brainrot Target List)
+        Target = {"Meta Technetta", "Nebuluck", "Doomini Tiktookini", "Magmew", "Anububu"}, -- รายชื่อตัวที่ต้องการใส่สถานะ Phantom (Phantom Brainrot Target List)
         TargetMutation = {"Emerald", "Gold", "UFO", "Blood", "Electric", "None"}, -- รายชื่อสถานะตัวที่ต้องเปลี่ยนใส่สถานะ Phantom (Phantom Brainrot Target Mutation List)
     },
     
     --=== Auto Spawn Machine Configs ===--
-    TargetBrainrotHourlyUpgrade = {"Dutchmello Velerino"}, -- รายชื่อตัวที่ต้องการให้ Auto Upgrade ทุกชั่วโมง (Hourly Upgrade List)
-    TargetMutationHourlyUpgrade = {"Phantom"}, -- รายชื่อสถานะตัวที่ต้องการให้ Auto Upgrade ทุกชั่วโมง (Hourly Upgrade Target Mutation List)
+    TargetBrainrotHourlyUpgrade = {}, -- รายชื่อตัวที่ต้องการให้ Auto Upgrade ทุกชั่วโมง (Hourly Upgrade List)
+    TargetMutationHourlyUpgrade = {}, -- รายชื่อสถานะตัวที่ต้องการให้ Auto Upgrade ทุกชั่วโมง (Hourly Upgrade Target Mutation List)
 
     --=== Base Manager Configs ===--
     Auto_Upgrade_Brainrot = {    -- เปิดใช้งานการอัพเกรดตัวในบ้านอัตโนมัติ (Auto Upgrade Brainrot in Base)
         Enabled = true, 
-        MaxLevel = 200,     -- เลเวลสูงสุดที่ต้องการอัพเกรด (Max Level for Auto Upgrade in Base)
+        MaxLevel = 220,     -- เลเวลสูงสุดที่ต้องการอัพเกรด (Max Level for Auto Upgrade in Base)
     },
-    TargetBrainrotBase = {"Anububu", "Magmew"}, -- รายชื่อตัวที่จะเอาลงบ้าน (Put Brainrot In Base List)
+    TargetBrainrotBase = {"Anububu", "Magmew", "Dutchmello Velerino"}, -- รายชื่อตัวที่จะเอาลงบ้าน (Put Brainrot In Base List)
     TargetMutationBase = {"Diamond", "Phantom"}, -- รายชื่อสถานะตัวที่จะเอาลงบ้าน (Put Brainrot In Base Target Mutation List)
 
     --=== Auto Sell Configs ===--
-    Delete_Brianrot_Specific = {"Crostina Gelifio", "Draculini Meowlini", "Grappellino D'Oro", "Burgerini Bearini", "Don Magmito", "Strawberry Elephant", "Biscotti Macarotti", "Galactio Fantasma", "Bulbito Bandito Traktorito", "Cornettino Fuaco", "Freezeti Cobretti", "Martino Gravitino", "Explodini Cataclismi", "Din Din Vaultero", "Glacierello Infernetti", "Pastapot Infernotto", "Cupitron Consoletron", "Rubichetto Cubini"}, -- รายชื่อตัวที่ต้องการขายทิ้ง (Auto Sell Specific Brainrot List)
+    Delete_Brianrot_Specific = {
+    "Arcobaleno Camellino",
+    "Biscotti Macarotti",
+    "Biscottino Scheletrino",
+    "Bulbito Bandito Traktorito",
+    "Burgerini Bearini",
+    "Burrascano Spettro Marinaro",
+    "Centrifuga Narwhalus Rex",
+    "Cornettino Fuaco",
+    "Crostina Gelifio",
+    "Cupitron Consoletron",
+    "Din Din Vaultero",
+    "Don Magmito",
+    "Draculini Meowlini",
+    "Explodini Cataclismi",
+    "Freezeti Cobretti",
+    "Galactio Fantasma",
+    "Glacierello Infernetti",
+    "Grappellino D'Oro",
+    "Luck Luck Luck",
+    "Martino Gravitino",
+    "Pastapot Infernotto",
+    "Rubichetto Cubini",
+    "Strawberry Elephant",
+    "Trippi Verdillo"
+    },
     Keep_Rarities = {"Infinity", "Divine"}, -- ระดับที่ไม่ต้องการขาย (Brainrot Rarities to Keep)
 
     --=== Auto Sell Custom Configs ===--
@@ -64,13 +89,13 @@ getgenv().Configs = {
     },
     Keep_Tower_Rarities = {"Infinity", "Divine"}, -- รายชื่อตัวที่ต้องการเก็บจากทาวเวอร์ (Tower Brainrot Rarities to Keep)
     AcidRain = { -- รายชื่อตัวที่ต้องการเปลี่ยนสถานะ (Acid Rain Target List)
-        Target = {"Meta Technetta", "Doomini Tiktookini", "Magmew", "Anububu"},
+        Target = {"Meta Technetta", "Nebuluck", "Doomini Tiktookini", "Magmew", "Anububu"},
         WhitelistMutations = {"Diamond"},
     },
     LuckyStorm_Use_Which_Block = {"Celestial"}, -- รายชื่อตัวที่ต้องการให้พายุปรับเป็น Infinity Block (Lucky Storm Use Diamond Block Target List)
     LuckyStorm_Require_Diamond_Block = false, -- ต้องเป็น Diamond Infinity Block เท่านั้น
     Atomic_Tornado = {
-        Target = {"Meta Technetta", "Anububu"}, -- รายชื่อตัวที่ต้องการให้พายุปรับขนาด (Atomic Tornado Target List)
+        Target = {"Meta Technetta"}, -- รายชื่อตัวที่ต้องการให้พายุปรับขนาด (Atomic Tornado Target List)
         WhitelistMutations = {"Diamond"}, -- รายชื่อตัวที่ติดสถานะต้องการให้พายุปรับขนาด (Atomic Tornado Whitelist Mutation)
         WhitelistSize = {"Colossal"}, -- รายชื่อขนาดที่ไม่ต้องการให้พายุปรับ (Atomic Tornado Whitelist Size)
     },
