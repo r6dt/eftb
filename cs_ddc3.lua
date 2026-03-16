@@ -1,5 +1,4 @@
 script_key="NOKAyxiMoZVLJbKpyuQFlrpOCjVVMNAh";
-script_key="kMvfWMPPTPffdXGSmjMlbQROZlymajzG";
 getgenv().Configs = {
     --=== Speed Multiplier ===--
     SpeedMultiplier = 1.5, -- ตัวคูณความเร็ว 0.1 - 3 (Speed Multiplier) 
