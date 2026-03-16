@@ -1,4 +1,5 @@
 script_key="NOKAyxiMoZVLJbKpyuQFlrpOCjVVMNAh";
+script_key="kMvfWMPPTPffdXGSmjMlbQROZlymajzG";
 getgenv().Configs = {
     --=== Speed Multiplier ===--
     SpeedMultiplier = 1.5, -- ตัวคูณความเร็ว 0.1 - 3 (Speed Multiplier) 
@@ -70,7 +71,7 @@ getgenv().Configs = {
 
     --=== More Farms ===--
     Farm_Tower = true, -- เปิดใช้งานฟาร์มทาวเวอร์ (Farm Tower)
-    Farm_Shield = true, -- เปิดใช้งานฟาร์มโล่ (Farm Shield)
+    Farm_Shield = false, -- เปิดใช้งานฟาร์มโล่ (Farm Shield)
     Farm_Token = true, -- เปิดใช้งานฟาร์มโทเคน (Farm Token)
     Farm_Phantom_Event = {  -- เปิดใช้งานฟาร์มอีเว้นท์แฟนท่อม (Farm Phantom Event)
         OrbReach = false, -- แข่งขันเก็บออร์บ (Farm Phantom Event Orb)
@@ -151,4 +152,4 @@ getgenv().Configs = {
         webhook = "https://discord.com/api/webhooks/1476825160781791355/6-ZRKeFUsULQmGBOE2I57o07CVowS9CGpH-3oFBg86v7F_MDBlwQr5ENxJWYAuhVdTYD"
     }
 
-loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/b00aa9d14f2e832b17de41a559088c6c.lua"))(
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/b00aa9d14f2e832b17de41a559088c6c.lua"))()
