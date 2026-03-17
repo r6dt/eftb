@@ -70,7 +70,7 @@ getgenv().Configs = {
 
     --=== More Farms ===--
     Farm_Tower = true, -- เปิดใช้งานฟาร์มทาวเวอร์ (Farm Tower)
-    Farm_Shield = true, -- เปิดใช้งานฟาร์มโล่ (Farm Shield)
+    Farm_Shield = false, -- เปิดใช้งานฟาร์มโล่ (Farm Shield)
     Farm_Token = true, -- เปิดใช้งานฟาร์มโทเคน (Farm Token)
     Farm_Phantom_Event = {  -- เปิดใช้งานฟาร์มอีเว้นท์แฟนท่อม (Farm Phantom Event)
         OrbReach = false, -- แข่งขันเก็บออร์บ (Farm Phantom Event Orb)
@@ -90,7 +90,7 @@ getgenv().Configs = {
     Keep_Tower_Rarities = {"Infinity", "Divine"}, -- รายชื่อตัวที่ต้องการเก็บจากทาวเวอร์ (Tower Brainrot Rarities to Keep)
     AcidRain = { -- รายชื่อตัวที่ต้องการเปลี่ยนสถานะ (Acid Rain Target List)
         Target = {"Meta Technetta", "Nebuluck", "Doomini Tiktookini", "Magmew", "Anububu"},
-        WhitelistMutations = {"Diamond"},
+        WhitelistMutations = {"Diamond", "Phantom"},
     },
     LuckyStorm_Use_Which_Block = {"Celestial"}, -- รายชื่อตัวที่ต้องการให้พายุปรับเป็น Infinity Block (Lucky Storm Use Diamond Block Target List)
     LuckyStorm_Require_Diamond_Block = false, -- ต้องเป็น Diamond Infinity Block เท่านั้น
