@@ -24,7 +24,7 @@ getgenv().Configs = {
         Enabled = true, 
         MaxLevel = 220,     -- เลเวลสูงสุดที่ต้องการอัพเกรด (Max Level for Auto Upgrade in Base)
     },
-    TargetBrainrotBase = {"Anububu", "Magmew", "Dutchmello Velerino"}, -- รายชื่อตัวที่จะเอาลงบ้าน (Put Brainrot In Base List)
+    TargetBrainrotBase = {}, -- รายชื่อตัวที่จะเอาลงบ้าน (Put Brainrot In Base List)
     TargetMutationBase = {"Diamond", "Phantom"}, -- รายชื่อสถานะตัวที่จะเอาลงบ้าน (Put Brainrot In Base Target Mutation List)
 
     --=== Auto Sell Configs ===--
