@@ -1,4 +1,4 @@
-script_key="reZYOfJTthcfBrzGLLkmGjLQPQEDrrAX";
+script_key="kMvfWMPPTPffdXGSmjMlbQROZlymajzG";
 getgenv().Configs = {
     --=== Speed Multiplier ===--
     SpeedMultiplier = 1.5, -- ตัวคูณความเร็ว 0.1 - 3 (Speed Multiplier) 
@@ -24,11 +24,7 @@ getgenv().Configs = {
         Enabled = true, 
         MaxLevel = 220,     -- เลเวลสูงสุดที่ต้องการอัพเกรด (Max Level for Auto Upgrade in Base)
     },
-    TargetBrainrotBase = {"Anububu", "Magmew", "Dutchmello Velerino"}, -- รายชื่อตัวที่จะเอาลงบ้าน (Put Brainrot In Base List)
-    TargetMutationBase = {"Diamond", "Phantom"}, -- รายชื่อสถานะตัวที่จะเอาลงบ้าน (Put Brainrot In Base Target Mutation List)
-
-    --=== Auto Sell Configs ===--
-    Delete_Brianrot_Specific = {
+    TargetBrainrotBase = {
     "Arcobaleno Camellino",
     "Biscotti Macarotti",
     "Biscottino Scheletrino",
@@ -53,7 +49,11 @@ getgenv().Configs = {
     "Rubichetto Cubini",
     "Strawberry Elephant",
     "Trippi Verdillo",
-    },
+    }, -- รายชื่อตัวที่จะเอาลงบ้าน (Put Brainrot In Base List)
+    TargetMutationBase = {"Emerald", "Gold", "UFO", "Blood", "Electric", "None"}, -- รายชื่อสถานะตัวที่จะเอาลงบ้าน (Put Brainrot In Base Target Mutation List)
+
+    --=== Auto Sell Configs ===--
+    Delete_Brianrot_Specific = {},
     Keep_Rarities = {"Infinity", "Divine"}, -- ระดับที่ไม่ต้องการขาย (Brainrot Rarities to Keep)
 
     --=== Auto Sell Custom Configs ===--
@@ -71,7 +71,7 @@ getgenv().Configs = {
     --=== More Farms ===--
     Farm_Tower = true, -- เปิดใช้งานฟาร์มทาวเวอร์ (Farm Tower)
     Farm_Shield = false, -- เปิดใช้งานฟาร์มโล่ (Farm Shield)
-    Farm_Token = true, -- เปิดใช้งานฟาร์มโทเคน (Farm Token)
+    Farm_Token = false, -- เปิดใช้งานฟาร์มโทเคน (Farm Token)
     Farm_Phantom_Event = {  -- เปิดใช้งานฟาร์มอีเว้นท์แฟนท่อม (Farm Phantom Event)
         OrbReach = false, -- แข่งขันเก็บออร์บ (Farm Phantom Event Orb)
         FarmCrate = false, -- เก็บกล่อง (Farm Phantom Event Crate)
@@ -133,7 +133,7 @@ getgenv().Configs = {
 
     --=== Miscellaneous Configs ===--
     Auto_Reconnect = false, -- เปิดใช้งานการเชื่อมต่อใหม่อัตโนมัติเมื่อถูกเตะ
-    Auto_VIP_Server = false, -- เปิดใช้งานการย้ายไปยัง VIP ฟรี
+    Auto_VIP_Server = true, -- เปิดใช้งานการย้ายไปยัง VIP ฟรี
     Miscellaneous = {
         BlackScreen = false, -- เปิดใช้งานหน้าจอดำ
         Disable_3DRendering = false, -- ปิดการเรนเดอร์ 3D
