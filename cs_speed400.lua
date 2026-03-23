@@ -22,7 +22,7 @@ getgenv().Configs = {
     --=== Base Manager Configs ===--
     Auto_Upgrade_Brainrot = {    -- เปิดใช้งานการอัพเกรดตัวในบ้านอัตโนมัติ (Auto Upgrade Brainrot in Base)
         Enabled = true, 
-        MaxLevel = 220,     -- เลเวลสูงสุดที่ต้องการอัพเกรด (Max Level for Auto Upgrade in Base)
+        MaxLevel = 100,     -- เลเวลสูงสุดที่ต้องการอัพเกรด (Max Level for Auto Upgrade in Base)
     },
     TargetBrainrotBase = {
     "Arcobaleno Camellino",
