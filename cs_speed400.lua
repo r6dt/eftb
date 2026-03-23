@@ -12,7 +12,7 @@ getgenv().Configs = {
         --=== Auto Mutation ===--
     Phantom_Brainrot = {    -- รายชื่อตัวที่ต้องการใส่สถานะ Phantom (Phantom Brainrot List)
         Target = {"Meta Technetta", "Nebuluck", "Doomini Tiktookini", "Magmew", "Anububu"}, -- รายชื่อตัวที่ต้องการใส่สถานะ Phantom (Phantom Brainrot Target List)
-        TargetMutation = {"Emerald", "Gold", "UFO", "Blood", "Electric", "None"}, -- รายชื่อสถานะตัวที่ต้องเปลี่ยนใส่สถานะ Phantom (Phantom Brainrot Target Mutation List)
+        TargetMutation = {"Emerald", "Gold", "UFO", "Blood", "Electric"}, -- รายชื่อสถานะตัวที่ต้องเปลี่ยนใส่สถานะ Phantom (Phantom Brainrot Target Mutation List)
     },
     
     --=== Auto Spawn Machine Configs ===--
